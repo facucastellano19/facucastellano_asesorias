@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "contact": "Contáctame"
+  },
+  "hero": {
+    "badge": "ASESORÍA ONLINE PERSONALIZADA",
+    "title_white_1": "ROMPE TUS",
+    "title_red": "LÍMITES",
+    "title_white_2": "HOY",
+    "description": "Asesoría fitness 100% personalizada con seguimiento diario. Sin excusas, sin plantillas genéricas — solo resultados reales.",
+    "cta_main": "Empieza Ahora",
+    "cta_secondary": "Ver Transformación"
+  }
+}

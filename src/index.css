@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-red: #E63946;
+  --color-brand-black: #0A0A0A;
+  --color-brand-dark-gray: #161616;
+  --color-brand-light-gray: #A0A0A0;
+
+  /* Tipografía */
+  --font-archivo: "Archivo", sans-serif;
+}
+
+:root {
+  background-color: var(--color-brand-black);
+  color: white;
+  font-family: var(--font-archivo);
+}
