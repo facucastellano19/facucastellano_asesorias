@@ -1,6 +1,8 @@
 {
   "navbar": {
-    "contact": "Contact Me"
+    "contact": "Contact Me",
+    "services": "Services",
+    "faq": "FAQ"
   },
   "hero": {
     "badge": "PERSONALIZED ONLINE COACHING",

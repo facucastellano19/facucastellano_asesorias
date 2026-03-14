@@ -1,6 +1,8 @@
 {
   "navbar": {
-    "contact": "Contáctame"
+    "contact": "Contáctame",
+    "services": "Servicios",
+    "faq": "FAQ"
   },
   "hero": {
     "badge": "ASESORÍA ONLINE PERSONALIZADA",
