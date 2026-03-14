@@ -100,5 +100,10 @@
         "answer": "I accept bank transfers, mobile payment apps, and other digital methods."
       }
     ]
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "description": "Your best physical version starts with a smart plan.",
+    "social_title": "Social Media"
   }
 }
