@@ -8,7 +8,36 @@
     "title_white_2": "YOUR CHANGE",
     "title_red": "TODAY",
     "description": "100% personalized fitness coaching with daily monitoring.",
-    "cta_main": "Start Now",
-    "cta_secondary": "View Transformation"
+    "cta_main": "Start Now"
+  },
+  "services": {
+    "subtitle": "Athletic Excellence",
+    "title": "What I offer",
+    "items": [
+      {
+        "title": "Personalized Coaching",
+        "description": "100% tailored plan adapted to your goals, body, and lifestyle with a full initial assessment.",
+        "features": [
+          "Full assessment",
+          "Target goals",
+          "Continuous adjustments"
+        ]
+      },
+      {
+        "title": "Weekly Planning",
+        "description": "Detailed routines week by week with zero improvisation. Professional training structure.",
+        "features": ["No improvisation", "Measurable goals", "Pro structure"]
+      },
+      {
+        "title": "24/7 Support",
+        "description": "Constant monitoring and direct access to your coach to ensure you never lose track or motivation.",
+        "features": ["WhatsApp support", "Quick responses", "Progress reviews"]
+      },
+      {
+        "title": "Form Correction",
+        "description": "In-depth analysis of your exercises to maximize results and ensure safe training.",
+        "features": ["Video analysis", "Injury prevention", "Execution mastery"]
+      }
+    ]
   }
 }

@@ -45,7 +45,6 @@ const Hero = () => {
             variants={itemVariants}
             className="text-[100px] lg:text-[120px] font-black leading-[0.8] tracking-tighter mb-8 uppercase italic text-white"
           >
-            {/* Volvemos al blanco puro para el título */}
             {t("hero.title_white_1")} {t("hero.title_white_2")} <br />
             <span className="text-brand-red">{t("hero.title_red")}</span>
           </motion.h1>
@@ -61,14 +60,6 @@ const Hero = () => {
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }}>
               <Button variant="primary" className="!px-10 !py-5 text-lg">
                 {t("hero.cta_main")}
-              </Button>
-            </motion.div>
-            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }}>
-              <Button
-                variant="outline"
-                className="!px-10 !py-5 text-lg hover:bg-white/5"
-              >
-                {t("hero.cta_secondary")}
               </Button>
             </motion.div>
           </motion.div>
@@ -124,12 +115,6 @@ const Hero = () => {
               className="!py-4 !text-xs font-bold uppercase"
             >
               {t("hero.cta_main")}
-            </Button>
-            <Button
-              variant="outline"
-              className="!py-4 !text-xs font-bold uppercase bg-black/40 backdrop-blur-sm"
-            >
-              {t("hero.cta_secondary")}
             </Button>
           </div>
         </motion.div>

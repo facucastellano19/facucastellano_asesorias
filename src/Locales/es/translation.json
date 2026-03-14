@@ -8,7 +8,44 @@
     "title_white_2": "TU CAMBIO",
     "title_red": "HOY",
     "description": "Asesoría fitness 100% personalizada con seguimiento diario.",
-    "cta_main": "Empieza Ahora",
-    "cta_secondary": "Ver Transformación"
+    "cta_main": "Empieza Ahora"
+  },
+  "services": {
+    "subtitle": "Excelencia Deportiva",
+    "title": "Lo que ofrezco",
+    "items": [
+      {
+        "title": "Asesoría personalizada",
+        "description": "Plan 100% adaptado a tus objetivos, cuerpo y estilo de vida con evaluación inicial completa.",
+        "features": ["Evaluación completa", "Metas claras", "Ajustes continuos"]
+      },
+      {
+        "title": "Planificación semanal",
+        "description": "Rutinas detalladas semana a semana sin lugar a la improvisación. Entrenamiento profesional.",
+        "features": [
+          "Sin improvisación",
+          "Objetivos medibles",
+          "Estructura profesional"
+        ]
+      },
+      {
+        "title": "Acompañamiento 24/7",
+        "description": "Monitoreo constante y acceso directo a tu coach para que nunca pierdas el rumbo ni la motivación.",
+        "features": [
+          "Soporte por WhatsApp",
+          "Respuestas rápidas",
+          "Revisión de progreso"
+        ]
+      },
+      {
+        "title": "Corrección de técnica",
+        "description": "Análisis exhaustivo de tus ejercicios para maximizar resultados y entrenar de forma segura.",
+        "features": [
+          "Análisis de videos",
+          "Prevención de lesiones",
+          "Mejora de ejecución"
+        ]
+      }
+    ]
   }
 }
