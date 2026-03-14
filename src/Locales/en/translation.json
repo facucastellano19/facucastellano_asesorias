@@ -78,5 +78,27 @@
         "description": "Your schedule doesn't allow you to follow generic internet routines."
       }
     ]
+  },
+  "faq": {
+    "subtitle": "COMMON QUESTIONS",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How do payments work?",
+        "answer": "Payments are monthly. This allows us to maintain a week-by-week follow-up with total flexibility: you renew month by month based on your results and satisfaction."
+      },
+      {
+        "question": "Do I need previous gym experience?",
+        "answer": "Not at all. I work with people of all levels, from beginners to advanced athletes. I adapt each plan to your experience, current physical condition, and specific goals."
+      },
+      {
+        "question": "How does communication work?",
+        "answer": "We communicate mainly via WhatsApp, where you can send me questions, exercise videos, progress photos, and any concerns. I respond daily and I'm available for video calls when necessary."
+      },
+      {
+        "question": "What payment methods do I accept?",
+        "answer": "I accept bank transfers, mobile payment apps, and other digital methods."
+      }
+    ]
   }
 }

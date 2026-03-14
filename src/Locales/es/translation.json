@@ -86,5 +86,27 @@
         "description": "Tu agenda no te permite seguir rutinas genéricas del internet."
       }
     ]
+  },
+  "faq": {
+    "subtitle": "DUDAS COMUNES",
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "question": "¿Cómo funcionan los pagos?",
+        "answer": "El pago es mensual. Esto nos permite mantener un seguimiento semana a semana totalmente actualizado y sin compromisos forzados: renovás mes a mes según tu progreso y comodidad."
+      },
+      {
+        "question": "¿Necesito experiencia previa en el gym?",
+        "answer": "No es necesario. Trabajo con personas de todos los niveles, desde principiantes hasta avanzados. Adapto cada plan según tu experiencia, condición física actual y objetivos específicos."
+      },
+      {
+        "question": "¿Cómo funciona la comunicación?",
+        "answer": "Nos comunicamos principalmente por WhatsApp, donde podrás enviarme consultas, videos de técnica, fotos de progreso y cualquier duda. Respondo diariamente y estoy disponible cuando sea necesario."
+      },
+      {
+        "question": "¿Qué métodos de pago acepto?",
+        "answer": "Acepto transferencias bancarias, pagos por aplicaciones móviles y otros métodos digitales."
+      }
+    ]
   }
 }
