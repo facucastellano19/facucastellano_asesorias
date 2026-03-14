@@ -6,6 +6,13 @@ import heroImg from "../../assets/facundo_hero.jpg";
 const Hero = () => {
   const { t } = useTranslation();
 
+  const scrollToServices = () => {
+    const servicesSection = document.querySelector("#services");
+    if (servicesSection) {
+      servicesSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -58,7 +65,11 @@ const Hero = () => {
 
           <motion.div variants={itemVariants} className="flex gap-6">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }}>
-              <Button variant="primary" className="!px-10 !py-5 text-lg">
+              <Button
+                variant="primary"
+                className="!px-10 !py-5 text-lg"
+                onClick={scrollToServices}
+              >
                 {t("hero.cta_main")}
               </Button>
             </motion.div>
@@ -113,6 +124,7 @@ const Hero = () => {
             <Button
               variant="primary"
               className="!py-4 !text-xs font-bold uppercase"
+              onClick={scrollToServices}
             >
               {t("hero.cta_main")}
             </Button>
