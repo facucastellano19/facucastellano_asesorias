@@ -7,7 +7,7 @@
     "title_white_1": "START",
     "title_white_2": "YOUR CHANGE",
     "title_red": "TODAY",
-    "description": "100% personalized fitness coaching with daily monitoring.",
+    "description": "100% personalized fitness coaching with daily follow-up.",
     "cta_main": "Start Now"
   },
   "services": {
@@ -16,6 +16,7 @@
     "items": [
       {
         "title": "Personalized Coaching",
+        "icon": "user-check",
         "description": "100% tailored plan adapted to your goals, body, and lifestyle with a full initial assessment.",
         "features": [
           "Full assessment",
@@ -25,18 +26,56 @@
       },
       {
         "title": "Weekly Planning",
+        "icon": "calendar",
         "description": "Detailed routines week by week with zero improvisation. Professional training structure.",
         "features": ["No improvisation", "Measurable goals", "Pro structure"]
       },
       {
         "title": "24/7 Support",
+        "icon": "message-circle",
         "description": "Constant monitoring and direct access to your coach to ensure you never lose track or motivation.",
         "features": ["WhatsApp support", "Quick responses", "Progress reviews"]
       },
       {
         "title": "Form Correction",
+        "icon": "video",
         "description": "In-depth analysis of your exercises to maximize results and ensure safe training.",
         "features": ["Video analysis", "Injury prevention", "Execution mastery"]
+      }
+    ],
+    "cta_title": "STOP STRUGGLING ALONE",
+    "cta_description": "A personalized plan and professional guidance are what make the difference between trying and achieving. Let's talk today.",
+    "cta_button": "I WANT TO START NOW!"
+  },
+  "problems": {
+    "subtitle": "SOUNDS FAMILIAR?",
+    "title_1": "IF YOU ARE GOING THROUGH THIS,",
+    "title_red": "YOU NEED HELP",
+    "items": [
+      {
+        "title": "No Physical Progress",
+        "icon": "trending-down",
+        "description": "Your body doesn't change even though you train consistently."
+      },
+      {
+        "title": "Loss of Strength",
+        "icon": "activity",
+        "description": "You feel like you're moving backward instead of advancing in your marks."
+      },
+      {
+        "title": "Lack of Motivation",
+        "icon": "frown",
+        "description": "You don't know what to do and you're about to give up."
+      },
+      {
+        "title": "No Clear Direction",
+        "icon": "help-circle",
+        "description": "You train without a real plan and the results don't come."
+      },
+      {
+        "title": "Little Time",
+        "icon": "clock",
+        "description": "Your schedule doesn't allow you to follow generic internet routines."
       }
     ]
   }

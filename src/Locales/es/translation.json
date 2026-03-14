@@ -16,11 +16,13 @@
     "items": [
       {
         "title": "Asesoría personalizada",
+        "icon": "user-check",
         "description": "Plan 100% adaptado a tus objetivos, cuerpo y estilo de vida con evaluación inicial completa.",
         "features": ["Evaluación completa", "Metas claras", "Ajustes continuos"]
       },
       {
         "title": "Planificación semanal",
+        "icon": "calendar",
         "description": "Rutinas detalladas semana a semana sin lugar a la improvisación. Entrenamiento profesional.",
         "features": [
           "Sin improvisación",
@@ -30,6 +32,7 @@
       },
       {
         "title": "Acompañamiento 24/7",
+        "icon": "message-circle",
         "description": "Monitoreo constante y acceso directo a tu coach para que nunca pierdas el rumbo ni la motivación.",
         "features": [
           "Soporte por WhatsApp",
@@ -39,12 +42,48 @@
       },
       {
         "title": "Corrección de técnica",
+        "icon": "video",
         "description": "Análisis exhaustivo de tus ejercicios para maximizar resultados y entrenar de forma segura.",
         "features": [
           "Análisis de videos",
           "Prevención de lesiones",
           "Mejora de ejecución"
         ]
+      }
+    ],
+    "cta_title": "DEJA DE LUCHAR SOLO",
+    "cta_description": "Un plan personalizado y un seguimiento profesional es lo que marca la diferencia entre intentar y lograr. Hablemos hoy mismo.",
+    "cta_button": "¡QUIERO EMPEZAR YA!"
+  },
+  "problems": {
+    "subtitle": "¿TE SUENA FAMILIAR?",
+    "title_1": "SI ESTÁS PASANDO POR ESTO,",
+    "title_red": "NECESITAS AYUDA",
+    "items": [
+      {
+        "title": "Sin Progreso Físico",
+        "icon": "trending-down",
+        "description": "Tu cuerpo no cambia aunque entrenes con constancia."
+      },
+      {
+        "title": "Pérdida de Fuerza",
+        "icon": "activity",
+        "description": "Sientes que retrocedes en lugar de avanzar en tus marcas."
+      },
+      {
+        "title": "Falta de Motivación",
+        "icon": "frown",
+        "description": "No sabes qué hacer y estás a punto de rendirte."
+      },
+      {
+        "title": "Sin Dirección Clara",
+        "icon": "help-circle",
+        "description": "Entrenas sin un plan real y los resultados no llegan."
+      },
+      {
+        "title": "Poco Tiempo",
+        "icon": "clock",
+        "description": "Tu agenda no te permite seguir rutinas genéricas del internet."
       }
     ]
   }
