@@ -1,0 +1,111 @@
+{
+  "navbar": {
+    "contact": "Contact Me",
+    "services": "Services",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "badge": "PERSONALIZED ONLINE COACHING",
+    "title_white_1": "START",
+    "title_white_2": "YOUR CHANGE",
+    "title_red": "TODAY",
+    "description": "100% personalized fitness coaching with daily follow-up.",
+    "cta_main": "Start Now"
+  },
+  "services": {
+    "subtitle": "Athletic Excellence",
+    "title": "What I offer",
+    "items": [
+      {
+        "title": "Personalized Coaching",
+        "icon": "user-check",
+        "description": "100% tailored plan adapted to your goals, body, and lifestyle with a full initial assessment.",
+        "features": [
+          "Full assessment",
+          "Target goals",
+          "Continuous adjustments"
+        ]
+      },
+      {
+        "title": "Weekly Planning",
+        "icon": "calendar",
+        "description": "Detailed routines week by week with zero improvisation. Professional training structure.",
+        "features": ["No improvisation", "Measurable goals", "Pro structure"]
+      },
+      {
+        "title": "24/7 Support",
+        "icon": "message-circle",
+        "description": "Constant monitoring and direct access to your coach to ensure you never lose track or motivation.",
+        "features": ["WhatsApp support", "Quick responses", "Progress reviews"]
+      },
+      {
+        "title": "Form Correction",
+        "icon": "video",
+        "description": "In-depth analysis of your exercises to maximize results and ensure safe training.",
+        "features": ["Video analysis", "Injury prevention", "Execution mastery"]
+      }
+    ],
+    "cta_title": "STOP STRUGGLING ALONE",
+    "cta_description": "A personalized plan and professional guidance are what make the difference between trying and achieving. Let's talk today.",
+    "cta_button": "I WANT TO START NOW!"
+  },
+  "problems": {
+    "subtitle": "SOUNDS FAMILIAR?",
+    "title_1": "IF YOU ARE GOING THROUGH THIS,",
+    "title_red": "YOU NEED HELP",
+    "items": [
+      {
+        "title": "No Physical Progress",
+        "icon": "trending-down",
+        "description": "Your body doesn't change even though you train consistently."
+      },
+      {
+        "title": "Loss of Strength",
+        "icon": "activity",
+        "description": "You feel like you're moving backward instead of advancing in your marks."
+      },
+      {
+        "title": "Lack of Motivation",
+        "icon": "frown",
+        "description": "You don't know what to do and you're about to give up."
+      },
+      {
+        "title": "No Clear Direction",
+        "icon": "help-circle",
+        "description": "You train without a real plan and the results don't come."
+      },
+      {
+        "title": "Little Time",
+        "icon": "clock",
+        "description": "Your schedule doesn't allow you to follow generic internet routines."
+      }
+    ]
+  },
+  "faq": {
+    "subtitle": "COMMON QUESTIONS",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How do payments work?",
+        "answer": "Payments are monthly. This allows us to maintain a week-by-week follow-up with total flexibility: you renew month by month based on your results and satisfaction."
+      },
+      {
+        "question": "Do I need previous gym experience?",
+        "answer": "Not at all. I work with people of all levels, from beginners to advanced athletes. I adapt each plan to your experience, current physical condition, and specific goals."
+      },
+      {
+        "question": "How does communication work?",
+        "answer": "We communicate mainly via WhatsApp, where you can send me questions, exercise videos, progress photos, and any concerns. I respond daily and I'm available for video calls when necessary."
+      },
+      {
+        "question": "What payment methods do I accept?",
+        "answer": "I accept bank transfers, mobile payment apps, and other digital methods."
+      }
+    ]
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "description": "Your best physical version starts with a smart plan.",
+    "social_title": "Social Media"
+  }
+}
