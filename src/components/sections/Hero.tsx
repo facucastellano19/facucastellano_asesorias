@@ -35,7 +35,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808008_1px,transparent_1px),linear-gradient(to_bottom,#80808008_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
 
       {/* VISTA DESKTOP */}
-      <div className="hidden md:flex w-full max-w-[1400px] mx-auto px-10 items-center justify-between gap-24 z-10 pt-20 pb-16">
+      <div className="hidden xl:flex w-full max-w-[1400px] mx-auto px-10 items-center justify-between gap-24 z-10 pt-20 pb-16">
         <motion.div
           className="w-1/2 flex flex-col items-start"
           variants={containerVariants}
@@ -98,7 +98,7 @@ const Hero = () => {
       </div>
 
       {/* VISTA MOBILE */}
-      <div className="md:hidden flex flex-col justify-end min-h-[100dvh] w-full relative">
+      <div className="xl:hidden flex flex-col justify-end min-h-[100dvh] w-full relative">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImg}
@@ -111,23 +111,26 @@ const Hero = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="relative z-10 px-6 pb-12 text-center flex flex-col items-center"
+          className="relative z-10 px-6 md:px-16 pb-12 md:pb-24 text-center flex flex-col items-center w-full"
         >
-          <h1 className="text-4xl font-black leading-[0.8] mb-3 italic uppercase tracking-tighter text-white">
+          <h1 className="text-4xl md:text-7xl font-black leading-[0.8] mb-3 md:mb-6 italic uppercase tracking-tighter text-white">
             {t("hero.title_white_1")} {t("hero.title_white_2")} <br />
             <span className="text-brand-red">{t("hero.title_red")}</span>
           </h1>
-          <p className="text-gray-300 text-[11px] mb-5 max-w-[280px] leading-tight uppercase tracking-wider">
+          <p className="text-gray-300 text-[11px] md:text-lg mb-5 md:mb-10 max-w-[280px] md:max-w-xl leading-tight uppercase tracking-wider">
             {t("hero.description")}
           </p>
-          <div className="flex flex-col gap-2 w-full max-w-[280px]">
-            <Button
-              variant="primary"
-              className="!py-4 !text-xs font-bold uppercase"
-              onClick={scrollToServices}
-            >
-              {t("hero.cta_main")}
-            </Button>
+
+          <div className="w-full flex justify-center">
+            <div className="w-full max-w-[280px] md:max-w-md">
+              <Button
+                variant="primary"
+                className="!w-full !py-4 md:!py-6 !text-xs md:!text-lg font-bold uppercase"
+                onClick={scrollToServices}
+              >
+                {t("hero.cta_main")}
+              </Button>
+            </div>
           </div>
         </motion.div>
       </div>
